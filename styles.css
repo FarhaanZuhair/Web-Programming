@@ -1,0 +1,105 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f7f7f7; /* Light background matching resume */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.resume-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff; /* White background */
+  padding: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 20px;
+}
+
+.profile-pic {
+  max-width: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+}
+
+.header-content {
+  max-width: 60%;
+  text-align: right;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #007bff; /* Primary color matching resume */
+}
+
+.header-content .subtitle {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.left-column,
+.right-column {
+  width: 48%;
+}
+
+/* New class ABC for wrapping main headings */
+.ABC {
+  background-color: #004080; /* Dark blue background */
+  color: white; /* White text color */
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-bottom: none; /* Removed border as it's inside ABC div */
+  padding-bottom: 0;
+}
+
+p,
+ul {
+  margin: 10px 0;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+.job h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.resume-footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
